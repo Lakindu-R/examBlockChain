@@ -18,8 +18,8 @@ export default function App() {
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
         html, body, #root { height: 100%; }
         body {
-          background: #080c1a;
-          color: #c8d0e0;
+          background: #0d1117;
+          color: #cdd5e0;
           font-family: 'Inter', sans-serif;
           -webkit-font-smoothing: antialiased;
         }
@@ -29,8 +29,8 @@ export default function App() {
           position: fixed;
           inset: 0;
           background-image:
-            linear-gradient(rgba(0,212,255,0.03) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(0,212,255,0.03) 1px, transparent 1px);
+            linear-gradient(rgba(0,229,160,0.025) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(0,229,160,0.025) 1px, transparent 1px);
           background-size: 40px 40px;
           pointer-events: none;
           z-index: 0;
@@ -41,8 +41,8 @@ export default function App() {
         input[type=number]::-webkit-inner-spin-button,
         input[type=number]::-webkit-outer-spin-button { opacity: 0.3; }
         input:focus {
-          border-color: rgba(0,212,255,0.5) !important;
-          box-shadow: 0 0 0 3px rgba(0,212,255,0.08);
+          border-color: rgba(0,229,160,0.5) !important;
+          box-shadow: 0 0 0 3px rgba(0,229,160,0.08);
         }
         button:hover:not(:disabled) {
           transform: translateY(-1px);
@@ -170,8 +170,8 @@ const styles: Record<string, React.CSSProperties> = {
     alignItems: "center",
     justifyContent: "space-between",
     padding: "20px 32px",
-    borderBottom: "1px solid rgba(0, 212, 255, 0.08)",
-    background: "rgba(8, 12, 26, 0.8)",
+    borderBottom: "1px solid rgba(0, 229, 160, 0.08)",
+    background: "rgba(13, 17, 23, 0.85)",
     backdropFilter: "blur(16px)",
     position: "sticky",
     top: 0,
@@ -183,9 +183,9 @@ const styles: Record<string, React.CSSProperties> = {
     gap: "10px",
   },
   brandMark: {
-    color: "#00D4FF",
+    color: "#00E5A0",
     fontSize: "22px",
-    textShadow: "0 0 12px rgba(0, 212, 255, 0.6)",
+    textShadow: "0 0 12px rgba(0, 229, 160, 0.6)",
   },
   brandName: {
     fontFamily: "'Inter', sans-serif",
@@ -195,10 +195,10 @@ const styles: Record<string, React.CSSProperties> = {
     letterSpacing: "-0.3px",
   },
   brandTag: {
-    background: "rgba(0, 212, 255, 0.08)",
-    border: "1px solid rgba(0, 212, 255, 0.2)",
+    background: "rgba(0, 229, 160, 0.08)",
+    border: "1px solid rgba(0, 229, 160, 0.2)",
     borderRadius: "6px",
-    color: "#00D4FF",
+    color: "#00E5A0",
     fontFamily: "'IBM Plex Mono', monospace",
     fontSize: "10px",
     letterSpacing: "1px",
@@ -219,7 +219,7 @@ const styles: Record<string, React.CSSProperties> = {
     fontFamily: "'Inter', sans-serif",
     fontSize: "32px",
     fontWeight: 700,
-    color: "#e8edf5",
+    color: "#edf2f7",
     letterSpacing: "-0.5px",
     marginBottom: "10px",
   },
@@ -239,8 +239,8 @@ const styles: Record<string, React.CSSProperties> = {
   connectPrompt: {
     textAlign: "center" as const,
     padding: "56px 24px",
-    background: "rgba(16, 22, 42, 0.5)",
-    border: "1px dashed rgba(0, 212, 255, 0.15)",
+    background: "rgba(18, 24, 32, 0.5)",
+    border: "1px dashed rgba(0, 229, 160, 0.15)",
     borderRadius: "16px",
   },
   connectText: {
@@ -250,26 +250,26 @@ const styles: Record<string, React.CSSProperties> = {
     marginBottom: "24px",
   },
   connectBtn: {
-    background: "linear-gradient(135deg, #00D4FF 0%, #0099cc 100%)",
+    background: "linear-gradient(135deg, #00E5A0 0%, #00b377 100%)",
     border: "none",
     borderRadius: "10px",
-    color: "#0a0e1a",
+    color: "#0a1a12",
     cursor: "pointer",
     fontFamily: "'Inter', sans-serif",
     fontWeight: 700,
     fontSize: "15px",
     padding: "14px 32px",
-    boxShadow: "0 0 24px rgba(0, 212, 255, 0.3)",
+    boxShadow: "0 0 24px rgba(0, 229, 160, 0.3)",
   },
   footer: {
     padding: "20px 32px",
-    borderTop: "1px solid rgba(0, 212, 255, 0.06)",
+    borderTop: "1px solid rgba(0, 229, 160, 0.06)",
     textAlign: "center" as const,
   },
   footerText: {
     fontFamily: "'IBM Plex Mono', monospace",
     fontSize: "11px",
-    color: "#2a3050",
+    color: "#2a3a30",
     letterSpacing: "0.5px",
   },
 };

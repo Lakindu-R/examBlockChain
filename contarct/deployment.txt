@@ -1,2 +1,5 @@
-FundFlow Contract Address: (not yet deployed)
-Run `npm run deploy:sepolia` to deploy and populate this file.
+FundFlow Contract Address: 0x9254A07118cBd44Fd042baA7121269779E12a0A3
+Network: sepolia
+Treasury: 0xd002E90a7893857f2A6AA3b496A7181a6bd81dac
+Fee Basis Points: 500
+Deployed At: 2026-03-26T10:44:14.465Z

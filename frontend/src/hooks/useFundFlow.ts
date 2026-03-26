@@ -47,7 +47,7 @@ export function useFundFlow(): FundFlowHook {
 
   const getProvider = useCallback(() => {
     if (!window.ethereum) throw new Error("No wallet detected. Install MetaMask.");
-    return new BrowserProvider(window.ethereum as Parameters<typeof BrowserProvider>[0]);
+    return new BrowserProvider(window.ethereum as ConstructorParameters<typeof BrowserProvider>[0]);
   }, []);
 
   const getContract = useCallback(async (withSigner = false) => {
@@ -229,7 +229,7 @@ export function useFundFlow(): FundFlowHook {
     // Auto-detect if already connected
     (async () => {
       try {
-        const provider = new BrowserProvider(window.ethereum as Parameters<typeof BrowserProvider>[0]);
+        const provider = new BrowserProvider(window.ethereum as ConstructorParameters<typeof BrowserProvider>[0]);
         const accounts = await provider.send("eth_accounts", []);
         if ((accounts as string[]).length > 0) {
           setAccount((accounts as string[])[0]);

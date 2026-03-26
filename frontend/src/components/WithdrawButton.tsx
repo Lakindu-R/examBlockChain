@@ -74,8 +74,8 @@ export default function WithdrawButton({
 
 const styles: Record<string, React.CSSProperties> = {
   card: {
-    background: "rgba(16, 22, 42, 0.7)",
-    border: "1px solid rgba(0, 212, 255, 0.12)",
+    background: "rgba(18, 24, 32, 0.75)",
+    border: "1px solid rgba(0, 229, 160, 0.12)",
     borderRadius: "16px",
     padding: "28px 24px",
     marginBottom: "16px",
@@ -84,7 +84,7 @@ const styles: Record<string, React.CSSProperties> = {
     fontFamily: "'Inter', sans-serif",
     fontSize: "16px",
     fontWeight: 600,
-    color: "#c8d0e0",
+    color: "#cdd5e0",
     marginBottom: "20px",
     marginTop: 0,
   },
@@ -92,8 +92,8 @@ const styles: Record<string, React.CSSProperties> = {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    background: "rgba(0, 212, 255, 0.04)",
-    border: "1px solid rgba(0, 212, 255, 0.08)",
+    background: "rgba(0, 229, 160, 0.04)",
+    border: "1px solid rgba(0, 229, 160, 0.08)",
     borderRadius: "10px",
     padding: "14px 16px",
     marginBottom: "16px",
@@ -101,13 +101,13 @@ const styles: Record<string, React.CSSProperties> = {
   balanceLabel: {
     fontFamily: "'Inter', sans-serif",
     fontSize: "12px",
-    color: "#5a6480",
+    color: "#4a6058",
   },
   balanceValue: {
     fontFamily: "'IBM Plex Mono', monospace",
     fontSize: "15px",
     fontWeight: 500,
-    color: "#00D4FF",
+    color: "#00E5A0",
   },
   hint: {
     fontFamily: "'Inter', sans-serif",
@@ -142,10 +142,10 @@ const styles: Record<string, React.CSSProperties> = {
   },
   button: {
     width: "100%",
-    background: "linear-gradient(135deg, rgba(0,212,255,0.15) 0%, rgba(0,153,204,0.15) 100%)",
-    border: "1px solid rgba(0, 212, 255, 0.4)",
+    background: "linear-gradient(135deg, rgba(0,229,160,0.15) 0%, rgba(0,179,119,0.15) 100%)",
+    border: "1px solid rgba(0, 229, 160, 0.4)",
     borderRadius: "10px",
-    color: "#00D4FF",
+    color: "#00E5A0",
     cursor: "pointer",
     fontFamily: "'Inter', sans-serif",
     fontWeight: 600,
@@ -156,8 +156,8 @@ const styles: Record<string, React.CSSProperties> = {
   buttonDisabled: {
     opacity: 0.4,
     cursor: "not-allowed",
-    borderColor: "rgba(0, 212, 255, 0.1)",
-    color: "#3a4460",
+    borderColor: "rgba(0, 229, 160, 0.1)",
+    color: "#2a3a30",
   },
   spinnerWrap: {
     display: "flex",
@@ -169,8 +169,8 @@ const styles: Record<string, React.CSSProperties> = {
     display: "inline-block",
     width: "14px",
     height: "14px",
-    border: "2px solid rgba(0, 212, 255, 0.2)",
-    borderTopColor: "#00D4FF",
+    border: "2px solid rgba(0, 229, 160, 0.2)",
+    borderTopColor: "#00E5A0",
     borderRadius: "50%",
     animation: "spin 0.7s linear infinite",
   },

@@ -145,8 +145,8 @@ export default function OwnerPanel({
 
 const styles: Record<string, React.CSSProperties> = {
   card: {
-    background: "rgba(20, 14, 35, 0.7)",
-    border: "1px solid rgba(160, 80, 255, 0.2)",
+    background: "rgba(20, 18, 14, 0.75)",
+    border: "1px solid rgba(245, 158, 11, 0.2)",
     borderRadius: "16px",
     padding: "28px 24px",
     marginBottom: "16px",
@@ -158,10 +158,10 @@ const styles: Record<string, React.CSSProperties> = {
     marginBottom: "20px",
   },
   badge: {
-    background: "rgba(160, 80, 255, 0.15)",
-    border: "1px solid rgba(160, 80, 255, 0.4)",
+    background: "rgba(245, 158, 11, 0.12)",
+    border: "1px solid rgba(245, 158, 11, 0.4)",
     borderRadius: "6px",
-    color: "#a050ff",
+    color: "#f59e0b",
     fontFamily: "'IBM Plex Mono', monospace",
     fontSize: "10px",
     fontWeight: 600,
@@ -192,7 +192,7 @@ const styles: Record<string, React.CSSProperties> = {
   },
   divider: {
     height: "1px",
-    background: "rgba(160, 80, 255, 0.1)",
+    background: "rgba(245, 158, 11, 0.1)",
     margin: "18px 0",
   },
   section: {
@@ -208,7 +208,7 @@ const styles: Record<string, React.CSSProperties> = {
     marginBottom: "8px",
   },
   feeHint: {
-    color: "#a050ff",
+    color: "#f59e0b",
     textTransform: "none" as const,
     letterSpacing: 0,
   },
@@ -220,20 +220,20 @@ const styles: Record<string, React.CSSProperties> = {
   input: {
     flex: 1,
     minWidth: "160px",
-    background: "rgba(8, 14, 28, 0.8)",
-    border: "1px solid rgba(160, 80, 255, 0.2)",
+    background: "rgba(10, 16, 12, 0.8)",
+    border: "1px solid rgba(245, 158, 11, 0.2)",
     borderRadius: "8px",
-    color: "#c8d0e0",
+    color: "#cdd5e0",
     fontFamily: "'IBM Plex Mono', monospace",
     fontSize: "13px",
     padding: "10px 14px",
     outline: "none",
   },
   actionBtn: {
-    background: "rgba(160, 80, 255, 0.15)",
-    border: "1px solid rgba(160, 80, 255, 0.35)",
+    background: "rgba(245, 158, 11, 0.12)",
+    border: "1px solid rgba(245, 158, 11, 0.35)",
     borderRadius: "8px",
-    color: "#a050ff",
+    color: "#f59e0b",
     cursor: "pointer",
     fontFamily: "'Inter', sans-serif",
     fontWeight: 600,
